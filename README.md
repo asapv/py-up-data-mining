@@ -9,7 +9,7 @@ El objetivo del análisis es explorar y comprender cómo las condiciones de vivi
 ```plaintext
 📦 py-up-data-mining
 ├── 📁 data                                # Archivos de datos originales y procesados
-│   ├── raw/                          # Datos originales (CSV)
+│   ├── raw/                               # Datos originales (CSV)
 │   │   ├── enaho_salud.csv                # Datos de salud (ENAHO)
 │   │   ├── enaho_vivienda.csv             # Datos de vivienda (ENAHO)
 │   │   ├── fallecidos_sinadef.csv         # Datos de fallecidos (SINADEF) **
@@ -19,9 +19,10 @@ El objetivo del análisis es explorar y comprender cómo las condiciones de vivi
 │   ├── processed/                         # Datos procesados
 │       ├── processed_data.xlsx            # Output preprocesado para análisis
 ├── 📁 notebooks                           # Notebooks Jupyter para cada etapa
-│   ├── preprocessing.py                   # Script para preprocesamiento
 │   ├── association_rules.ipynb            # Notebook para reglas de asociación
 │   ├── predictive_model.ipynb             # Notebook para modelo predictivo
+├── 📁 scripts                             # Scripts Python
+│   ├── preprocessing.py                   # Script para preprocesamiento
 ├── 📁 docs                                # Documentos relacionados con el proyecto
 │   ├── proyecto.pdf                       # Documento del proyecto
 ├── 📄 README.md                           # Descripción del repositorio
