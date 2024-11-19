@@ -9,7 +9,7 @@ El objetivo del análisis es explorar y comprender cómo las condiciones de vivi
 ```plaintext
 📦 py-up-data-mining
 ├── 📁 data                                # Archivos de datos originales y procesados
-│   ├── raw_data/                          # Datos originales (CSV)
+│   ├── raw/                          # Datos originales (CSV)
 │   │   ├── enaho_salud.csv                # Datos de salud (ENAHO)
 │   │   ├── enaho_vivienda.csv             # Datos de vivienda (ENAHO)
 │   │   ├── fallecidos_sinadef.csv         # Datos de fallecidos (SINADEF) **
