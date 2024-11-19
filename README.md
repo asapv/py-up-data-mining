@@ -9,10 +9,25 @@ El objetivo del análisis es explorar y comprender cómo las condiciones de vivi
 
 ## Contenido del Repositorio
 
-- **`/data`**: Conjuntos de datos utilizados para el análisis (e.g., ENAHO, SINADEF, SENAMHI).  
-- **`/notebooks`**: Notebooks de Jupyter con el preprocesamiento, análisis exploratorio y modelamiento.  
-- **`/results`**: Gráficos, métricas y salidas obtenidas del análisis.  
-- **`README.md`**: Detalles del repositorio y guía para la ejecución del proyecto.  
+```plaintext
+📦 py-up-data-mining
+├── 📁 data                                # Archivos de datos originales y procesados
+│   ├── raw/                               # Datos originales (CSV, Excel, etc.)
+│   │   ├── enaho_salud.csv                # Datos de salud (ENAHO)
+│   │   ├── enaho_vivienda.csv             # Datos de vivienda (ENAHO)
+│   │   ├── fallecidos_sinadef.csv         # Datos de fallecidos (SINADEF)
+│   │   ├── ubigeos.csv                    # Tabla de ubigeos
+│   │   ├── variables_meteorologicas.csv   # Datos meteorológicos (SENAMHI)
+│   ├── processed/                         # Datos procesados
+│       ├── processed_data.xlsx            # Output preprocesado para análisis
+├── 📁 notebooks                           # Notebooks Jupyter para cada etapa
+│   ├── preprocessing.ipynb                # Notebook para preprocesamiento
+│   ├── association_rules.ipynb            # Notebook para reglas de asociación
+│   ├── predictive_model.ipynb             # Notebook para modelo predictivo
+├── 📁 docs                                # Documentos relacionados con el proyecto
+│   ├── proyecto.pdf                       # Documento del proyecto
+├── 📄 README.md                           # Descripción del repositorio
+```
 
 ---
 
