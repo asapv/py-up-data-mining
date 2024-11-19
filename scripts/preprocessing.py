@@ -361,12 +361,12 @@ def main():
     """Función principal que ejecuta todo el proceso"""
     # Cargar datos
     print("Cargando datos...")
-    df_vivienda = pd.read_csv('enaho_vivienda.csv')
-    df_salud = pd.read_csv('enaho_salud.csv')
-    df_meteo = pd.read_csv('variables_meteorologicas.csv')
-    df_sinadef = pd.read_excel('etiquetas_sinadef.xlsx')
-    df_sinadef_etiquetas = pd.read_csv('fallecidos_sinadef.csv', sep='|')
-    df_ubigeos = pd.read_csv('ubigeos.csv', sep=';')
+    df_vivienda = pd.read_csv('raw/enaho_vivienda.csv')
+    df_salud = pd.read_csv('raw/enaho_salud.csv')
+    df_meteo = pd.read_csv('raw/variables_meteorologicas.csv')
+    df_sinadef = pd.read_excel('raw/etiquetas_sinadef.xlsx')
+    df_sinadef_etiquetas = pd.read_csv('raw/fallecidos_sinadef.csv', sep='|')
+    df_ubigeos = pd.read_csv('raw/ubigeos.csv', sep=';')
     
     # Procesar datos de vivienda
     print("Procesando datos de vivienda...")
