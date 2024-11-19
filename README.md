@@ -19,7 +19,7 @@ El objetivo del análisis es explorar y comprender cómo las condiciones de vivi
 │   ├── processed/                         # Datos procesados
 │       ├── processed_data.xlsx            # Output preprocesado para análisis
 ├── 📁 notebooks                           # Notebooks Jupyter para cada etapa
-│   ├── preprocessing.ipynb                # Notebook para preprocesamiento
+│   ├── preprocessing.py                   # Script para preprocesamiento
 │   ├── association_rules.ipynb            # Notebook para reglas de asociación
 │   ├── predictive_model.ipynb             # Notebook para modelo predictivo
 ├── 📁 docs                                # Documentos relacionados con el proyecto
