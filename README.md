@@ -26,7 +26,7 @@ El objetivo del análisis es explorar y comprender cómo las condiciones de vivi
 │   ├── proyecto.pdf                       # Documento del proyecto
 ├── 📄 README.md                           # Descripción del repositorio
 ```
-**Nota**: Los archivos marcados con ** (fallecidos_sinadef.csv y variables_meteorologicas.csv) deben descargarse debido a su tamaño: [click aquí](insertar_tu_link_aquí)
+**Nota**: Los archivos marcados con ** (fallecidos_sinadef.csv y variables_meteorologicas.csv) deben descargarse debido a su tamaño: [click aquí](https://drive.google.com/drive/folders/16JAKMwNGBhFpue7HpaAQel7czkgZjKmN?usp=sharing)
 ---
 ## Metodología
 Se utilizó la metodología **Knowledge Discovery in Databases (KDD)**, que consta de las siguientes fases:
